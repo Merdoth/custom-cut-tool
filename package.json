@@ -6,10 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "cut": "./bin/cut.js"
+  },
   "keywords": [],
   "author": "Merdoth",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "fs": "^0.0.1-security"
   }
