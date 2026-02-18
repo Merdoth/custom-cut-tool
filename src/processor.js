@@ -1,4 +1,4 @@
-
+// This file handles the text processing logic.
 
 export const processInput = (input, delimiter, fieldNumbers) => {
   const lines = input.split("\n");

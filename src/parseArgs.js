@@ -1,3 +1,4 @@
+// This file is responsible ONLY for parsing CLI arguments.
 
 export const parseArgs = (args) => {
   let delimiter = "\t";
