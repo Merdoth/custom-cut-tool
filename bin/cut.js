@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import fs from "fs";
-import { parseArgs, processInput } from "./src/index.js";
+import { parseArgs, processInput } from "../src/index.js";
 
 
 const args = process.argv.slice(2);
